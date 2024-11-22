@@ -1,0 +1,378 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header
+{
+    background: #BBBBBB;
+    padding: 20px 0 ;
+}
+
+.header-div
+{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav
+{
+    position: absolute;
+    top: 110px;
+    right: 15px;
+}
+
+nav li
+{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a
+{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+nav a:hover
+{
+    color: #C78C19;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.products-list
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.products-list li
+{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s all;
+}
+
+.products-list li:hover
+{
+    border-color: #C78C19;
+    transform: scale(1.1);
+}
+
+.products-list li:hover h2
+{
+    font-size: 34px;
+}
+
+.products-list li:active
+{
+    border-color: #088C19;
+    transform: scale(0.9);
+}
+
+.products-list li:active h2
+{
+    font-size: 26px;
+}
+
+.products-list h2
+{
+    font-size:  30px;
+    font-weight: bold;
+}
+
+.description
+{
+    font-size: 18px;
+}
+
+.price
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer
+{
+    margin: 0 auto;
+    padding: 40px 0;
+    background: url(assets/bg.jpg);
+    text-align: center;
+}
+
+.copyright
+{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/*---Contact---*/
+
+.contact-div
+{
+    width: 640px;
+    margin: 0 auto;
+    padding: 3em;
+    background-color: #FEFEFE;
+}
+
+form
+{
+    margin-left: 100px;
+
+}
+
+form label, form legend
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.input_std
+{
+    display: block;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+fieldset
+{
+    margin: 20px 0;
+}
+
+.checkbox
+{
+    margin: 20px 0;
+}
+
+.send_info
+{
+    width: 40%;
+    position: relative;
+    left: 112px;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.send_info:hover
+{
+    background-color: lightsalmon;
+    transform: scale(1.1);
+}
+
+.send_info:active
+{
+    background-color: darkorange;
+    transform: scale(0.9);
+}
+
+table
+{
+    margin: 20px auto;
+}
+
+thead
+{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th
+{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/*---Home page---*/
+
+.banner
+{
+    width: 100%;
+}
+
+.main-div
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em;
+    background-color: #FEFEFE;
+}
+
+.main-div p
+{
+    margin-bottom: 1em;
+}
+
+.main-div strong
+{
+    font-weight: bold;
+}
+
+.main-div em
+{
+    font-style: italic;
+}
+
+.main-title
+{
+    clear: left;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px #FEFEFE;
+}
+
+.tools
+{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.map
+{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.map p
+{
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.map-content
+{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.benefits
+{
+    padding: 3em 0;
+    background-color: #888888;
+}
+
+.benefits-content
+{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.benefits-list
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-top: 45px;
+}
+
+.itens
+{
+    margin: 0 20px;
+    line-height: 1.5;
+}
+
+.itens:first-child
+{
+    font-weight: bold;
+}
+
+.itens:before
+{
+    content: "★";
+    margin-right: 5px;
+}
+
+.benefits-banner
+{
+    width: 60%;
+    transition: 400ms;
+}
+
+.benefits-banner:hover
+{
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.video
+{
+    width: 560px;
+    margin: 1em auto;
+}
+
+@media screen and (max-width: 480px)
+{
+    .header-div, .main-div, .map-content, .benefits-content, .video, .products-list, .contact-div
+    {
+        width: auto;
+    }
+
+    h1
+    {
+        text-align: center;
+    }
+
+    nav
+    {
+        position: static;
+    }
+
+    .benefits-list, .benefits-banner
+    {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .products-list li
+    {
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    form
+    {
+        margin: 0;
+    }
+
+    .input_std
+    {
+        width: 100%;
+    }
+
+    .send_info
+    {
+        left: 35px;
+        width: 75%;
+    }
+}

@@ -1,0 +1,54 @@
+@import url(reset.css);
+
+.main-title
+{
+    padding-left:  20px;
+}
+
+.center-title, p {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.banner
+{
+    width: 100%;
+}
+
+.main-div
+{
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.Mission
+{
+    font-size: 20px
+}
+
+em strong {
+    color: #FF0000;
+}
+
+.itens
+{
+    font-style: italic;
+}
+
+.benefits
+{
+    background-color: #FFFFFF;
+}
+
+ul
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 0% 10%;
+}
+
+.banner-benefits
+{
+    width: 50%;
+}
